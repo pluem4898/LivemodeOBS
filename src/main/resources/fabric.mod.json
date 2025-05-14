@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "camsetobs",
+	"version": "${version}",
+	"name": "camsetobs",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/camsetobs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"camsetobs.alpha.CameraMod"
+		],
+		"client": [
+			"camsetobs.alpha.CameraModClient"
+		],
+		"fabric-datagen": [
+			"camsetobs.alpha.CameraModDataGenerator"
+		]
+	},
+
+	"mixins": [
+		"camsetobs.mixins.json",
+		{
+			"config": "camsetobs.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

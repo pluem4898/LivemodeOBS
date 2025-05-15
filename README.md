@@ -3,8 +3,8 @@
 This is a Minecraft mod that integrates with OBS (Open Broadcaster Software) to provide a camera control system in-game, allowing users to switch between different camera angles and scenes. It provides an easy-to-use interface and allows seamless integration with OBS for live streaming.
 
 You can download the latest release of the mod from the following link:
-- [CamsetOBS v1.0.0](https://github.com/pluem4898/LivemodeOBS/releases/download/untagged-cc120606dba8d97a4baa/camsetobs-1.0.0.jar)
-- [CamsetOBS Sources](https://github.com/pluem4898/LivemodeOBS/releases/download/untagged-cc120606dba8d97a4baa/camsetobs-1.0.0.jar)
+- [CamsetOBS v1.0.0](https://github.com/pluem4898/camsetobs/releases/download/untagged-cc120606dba8d97a4baa/camsetobs-1.0.0.jar)
+- [CamsetOBS Sources](https://github.com/pluem4898/camsetobs/releases/download/untagged-cc120606dba8d97a4baa/camsetobs-1.0.0.jar)
 
 ## Features
 - **Camera Setup**: Set custom camera positions in-game with `/setcam <name>`.
